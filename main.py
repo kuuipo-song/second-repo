@@ -1,5 +1,5 @@
 for i in range(5):
     if i % 2 == 0:
-        print("hello")
+        print("안녕")
     elif i % 3 == 0:
-        print("world")
+        print("세계")
