@@ -1,15 +1,9 @@
-def fizz(n):
-    for i in range(1, 15+1):
-        if i % 3 == 0:
-            print("Fizz")
-        else:
-            print(i)
-
-
-def buzz(n):
-    for i in range(1, 15+1):
-        if i % 5 == 0:
-            print("Buzz")
-        else:
-            print(i)
-
+for i in range(1, 15 + 1):
+    if i % 3 == 0 and i % 5 == 0:
+        print("fizzbuzz")
+    elif i % 3 == 0:
+        print("fizz")
+    elif i % 5 == 0:
+        print("buzz")
+    else:
+        print(i)
